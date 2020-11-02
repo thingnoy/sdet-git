@@ -45,5 +45,5 @@
 
 - git reset
     คือการเปลี่ยน HEAD pointer ไปยัง commit ที่ต้องการ
-    --soft: คือการเปลี่ยน HEAD แต่ยังคง commit ไว้ เช่น มี commit a b c ถ้า reset ไปที่ b c จะยังอยู่
-    --hard: คือการเปลี่ยน HEAD จะลบ commit เช่น มี commit a b c ถ้า reset ไปที่ b commit c จะถูกลบออก
+    --soft: คือการเปลี่ยน HEAD แต่ยังคง commit ไว้ เช่น มี commit a b c ถ้า reset ไปที่ commit b แต่ commit c จะยังอยู่
+    --hard: คือการเปลี่ยน HEAD จะลบ commit เช่น มี commit a b c ถ้า reset ไปที่ commit b แต่ commit c จะถูกลบออก
